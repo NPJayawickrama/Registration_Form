@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',Open San;
+  font-family: 'Poppins',Open San,sans-serif;
 }
 
 h2{
-    font-family: Open San;
+    font-family: Open San, sans-serif;
     font-weight: bold;
     text-align: center;
 }
@@ -31,27 +31,37 @@ body{
 form .user-details .input-box{
   font-size: 14pt;
   font-weight: bold;
-  font-family: Open San;
+  font-family: Open San, sans-serif;;
   margin-bottom: 15px;
-  width: calc(100% - 20px);
+  width: calc(100%);
 }
 
 form .user-details .input-address{
   font-size: 14pt;
   font-weight: bold;
-  font-family: Open San;
+  font-family: Open San, sans-serif;
+  width: calc(100% - 50);
   margin-bottom: 15px;
+  
+}
+form .user-details .paymenttype{
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Open San, sans-serif;
+  width: calc(100% - 50);
+  margin-bottom: 15px;
+  
 }
 
 form .user-details .usertypetitle{
   font-size: 14pt;
   font-weight: bold;
-  font-family: Open San;
+  font-family: Open San, sans-serif;
   margin-bottom: 15px;
 }
 form .user-details .category{
   font-size: 14pt;
-  font-family: Open San;
+  font-family: Open San, sans-serif;
   margin-bottom: 15px;
 }
 
@@ -69,7 +79,7 @@ form .user-details .category{
   transition: all 0.3s ease;
 }
 .user-details .input-address input{
-  width: 100%;
+  width: 50%;
   outline: none;
   font-size: 12px;
   border-radius: 5px;
@@ -78,10 +88,6 @@ form .user-details .category{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-/*.user-details .input-box input:focus,
-.user-details .input-box input:valid{
-  border-color: #9b59b6;
-}*/
 form .user-type .user-type{
   font-size: 14px;
   font-weight: 500;
