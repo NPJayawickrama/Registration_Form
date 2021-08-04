@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="newCascadeStyleSheet.css">
+    <script src="newjavascript.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Enter User Information</h2>
+        <br>
+        
+            <form name="myForm" onsubmit="return formValidation();">
+                <div class="user-details">
+                  <div class="input-box">
+                    <lable for="firstname">First Name</lable>
+                    <input type="text" placeholder="Type first name here" name="firstname" required>
+                  </div>
+                  <div class="input-box">
+                    <lable for="lastname">Last Name</lable>
+                    <input type="text" placeholder="Type last name here" name="lastname" required>
+                  </div>
+                  <div class="input-box">
+                    <lable for="contactnumber">Contact Number</lable>
+                    <input type="text" placeholder="Type contact number here" name="contactnumber" required>
+                  </div>
+                  <div class="input-address">
+                    <label for="address"> Address </label>
+                    <br>
+                    <textarea placeholder="Type address here" rows="5" cols="100" name="address" required>
+                    </textarea>
+                  </div>
+                  <div class="input-box">
+                    <lable for="email">Email Address</lable>
+                    <input type="text" placeholder="Type email address here" name="email" required>
+                  </div>
+                <div class="user-type">
+                  <div class="usertypetitle">
+                  <lable for="usertype">User Type</lable>
+                  </div>
+                  <input type="radio" name="User Type" id="dot-1" checked>
+                  <input type="radio" name="User Type" id="dot-2">
+                  <input type="radio" name="User Type" id="dot-3">
+
+                <div class="category">
+                    <label for="dot-1">
+                    <span class="dot one"></span>
+                    <span class="User Type">School</span>
+                  </label>
+                  <label for="dot-2">
+                    <span class="dot two"></span>
+                    <span class="User Type">University</span>
+                  </label>
+                  <label for="dot-3">
+                    <span class="dot three"></span>
+                    <span class="User Type">Employee</span>
+                  </label>
+                  </div>
+                </div> 
+                    <br>
+                  <label for="paymenttype">Payment Type</label>
+                    <select name="paymenttype">
+                        <option selected="" value="Default">Full payment</option>
+                        <option value="Halfpayment">Half payment</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="button">
+                  <input type="submit" value="SUBMIT">
+                </div>
+            </form>
+        </div>
+      
+</body>
+</html>

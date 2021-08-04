@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',Open San;
+}
+
+h2{
+    font-family: Open San;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #ff00d4, #00ddff);
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 100px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+
+form .user-details .input-box{
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Open San;
+  margin-bottom: 15px;
+  width: calc(100% - 20px);
+}
+
+form .user-details .input-address{
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Open San;
+  margin-bottom: 15px;
+}
+
+form .user-details .usertypetitle{
+  font-size: 14pt;
+  font-weight: bold;
+  font-family: Open San;
+  margin-bottom: 15px;
+}
+form .user-details .category{
+  font-size: 14pt;
+  font-family: Open San;
+  margin-bottom: 15px;
+}
+
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 12pt;
+  font-weight: normal;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.user-details .input-address input{
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+/*.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #9b59b6;
+}*/
+form .user-type .user-type{
+  font-size: 14px;
+  font-weight: 500;
+ }
+ form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+#dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #9b59b6;
+   border-color: #d9d9d9;
+ }
+ form input[type="radio"]{
+   display: none;
+ }
+ form .button{
+   height: 20px;
+   margin: 10px 0
+ }
+
+ form .button input{
+   height: 200%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 10pt;
+   font-weight: bold;
+   letter-spacing: 3pt;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(135deg, #ff00d4, #00ddff);
+ }
+ 
+ 
+
+
